@@ -27,17 +27,64 @@ Knowledge based recommendations frequently are implemented using filters, and ar
  Take a look at the filters available on Zillow in the image below. This is an example of building in a knowledge based recommendation, as users can add their own preferences to the items that are provided.
 
 
+<p align="center">
+<img src="./images/1.png" alt="Knowledge Based Recommendation" />
+<p align="center">
+
+
+Often a rank based algorithm is provided along with knowledge based recommendations to bring the most popular items in particular categories to the user's attention. In the linke below, you will get some practice implementing this type of recommendation for the MovieTweetings dataset.
+
+
+* [Knowledge Based_Recommendations](https://github.com/A2Amir/Recommendation-Systems/blob/main/2.%20%20Knowledge%20Based_Recommendations.ipynb)
+
+## 2.Collaborative filtering
+
+
+Collaborative filtering is a method of making recommendations based only on the interactions between users and items.  We don't need any information about items and users (information like user like or dislike item, … will be needed)
+
+for example We know that Rima and Amir both have similar tastes in books. If we recommend a book Rima has read to Amir, this is an example of a...collaborative filtering(see below).
+
+
+<p align="center">
+<img src="./images/2.png" width="500" height="400" alt="Collaborative filtering" />
+<p align="center">
+
+
+There are two main ways to implement collaborative filtering:
+
+  1. Model Based Collaborative Filtering which uses machine learning techniques to make recommendation
+  2. Neighborhood Based Collaborative Filtering which is used to identify items or users that are "neighbors" with one another.
+    
+There are a number of ways we might go about finding an individual's closest neighbors - the metrics we will take a closer look at include:
+
+    1. Pearson's correlation coefficient 
+    2. Spearman's correlation coefficient 
+    3. Kendall's Tau 
+    4. Euclidean Distance 
+    5. Manhattan Distance 
 
 
 
+In the linke below, you will work through a few examples to get more familiar with how each of these metrics is computed, and why you might use one over another.
+
+* [Measuring Similarity ](https://github.com/A2Amir/Recommendation-Systems/blob/main/3.%20Measuring%20Similarity%20.ipynb)
 
 
 
+To create **Neighborhood Based Collaborative Filtering** recommendations, we need to use the ratings from our neighbors to influence the ratings we provide to other users. There are a few ways to do this, but a simple method would be to:
+
+    1. Remove movies our user has already seen. 
+    2. Find ratings of the neighbors that are high. 
+    3. Recommend movies to each user where both 1 and 2 above hold. 
+
+In the notebook below, it is implemented the three-step process above to make recommendations for every user in the dataset.
+
+* [Collaborative Filtering](https://github.com/A2Amir/Recommendation-Systems/blob/main/4.%20Collaborative%20Filtering%20.ipynb)
 
 
+Other methods for making recommendations using collaborative filtering are based on weighting of the neighbors' ratings based on the 'closeness' of the neighbors. You can use each of the following two papers to learn more about this technique:
+
+* [omino Data Lab Paper](https://blog.dominodatalab.com/recommender-systems-collaborative-filtering/)
+* [Semantic Scholar Paper On Weighted Ratings](https://pdfs.semanticscholar.org/3e9e/bcd9503ef7375c7bb334511804d1e45127e9.pdf)
 
 
-
-
-
-https://github.com/sidooms/MovieTweetings
