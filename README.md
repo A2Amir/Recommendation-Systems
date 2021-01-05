@@ -71,4 +71,20 @@ In the linke below, you will work through a few examples to get more familiar wi
 
 
 
-https://github.com/sidooms/MovieTweetings
+To create **Neighborhood Based Collaborative Filtering** recommendations, we need to use the ratings from our neighbors to influence the ratings we provide to other users. There are a few ways to do this, but a simple method would be to:
+
+    1. Remove movies our user has already seen. 
+    2. Find ratings of the neighbors that are high. 
+    3. Recommend movies to each user where both 1 and 2 above hold. 
+
+In the notebook below, it is implemented the three-step process above to make recommendations for every user in the dataset.
+
+* [Collaborative Filtering](https://github.com/A2Amir/Recommendation-Systems/blob/main/4.%20Collaborative%20Filtering%20.ipynb)
+
+
+Other methods for making recommendations using collaborative filtering are based on weighting of the neighbors' ratings based on the 'closeness' of the neighbors. You can use each of the following two papers to learn more about this technique:
+
+* [omino Data Lab Paper](https://blog.dominodatalab.com/recommender-systems-collaborative-filtering/)
+* [Semantic Scholar Paper On Weighted Ratings](https://pdfs.semanticscholar.org/3e9e/bcd9503ef7375c7bb334511804d1e45127e9.pdf)
+
+
