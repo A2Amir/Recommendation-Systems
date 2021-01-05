@@ -3,9 +3,9 @@ import pandas as pd
 
 
 # Read in the MovieTweetings dataset originally taken from https://github.com/sidooms/MovieTweetings/tree/master/latest
-movies = pd.read_csv('movies.dat', delimiter='::', header=None, names=['movie_id', 'movie', 'genre'], dtype={'movie_id': object}, engine='python')
+movies = pd.read_csv('./data/movies.dat', delimiter='::', header=None, names=['movie_id', 'movie', 'genre'], dtype={'movie_id': object}, engine='python')
 
-reviews = pd.read_csv('ratings.dat', delimiter='::', header=None, names=['user_id', 'movie_id', 'rating', 'timestamp'], dtype={'movie_id': object, 'user_id': object, 'timestamp': object}, engine='python')
+reviews = pd.read_csv('./data/ratings.dat', delimiter='::', header=None, names=['user_id', 'movie_id', 'rating', 'timestamp'], dtype={'movie_id': object, 'user_id': object, 'timestamp': object}, engine='python')
 
 # Another Global variable to store the number of different genres
 genres = []
@@ -104,9 +104,9 @@ def popular_recommendations(user_id, n_top, ranked_movies):
 
 
 def show_clean_dataframes():
-    reviews = pd.read_csv('./reviews_clean.csv')
+    reviews = pd.read_csv('./data/reviews_clean.csv')
     print(reviews.head())
-    movies = pd.read_csv('./movies_clean.csv')
+    movies = pd.read_csv('./data/movies_clean.csv')
     print(movies.head())
     return reviews, movies
 
