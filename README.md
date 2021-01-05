@@ -52,8 +52,8 @@ for example We know that Rima and Amir both have similar tastes in books. If we 
 
 There are two main ways to implement collaborative filtering:
 
-    1. Model Based Collaborative Filtering which uses machine learning techniques to make recommendation
-    2. Neighborhood Based Collaborative Filtering which is used to identify items or users that are "neighbors" with one another.
+  1. Model Based Collaborative Filtering which uses machine learning techniques to make recommendation
+  2. Neighborhood Based Collaborative Filtering which is used to identify items or users that are "neighbors" with one another.
     
 There are a number of ways we might go about finding an individual's closest neighbors - the metrics we will take a closer look at include:
 
