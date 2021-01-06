@@ -9,12 +9,11 @@
 ***
 
 
-## 1. MovieTweetings data
+## MovieTweetings data
 
-If you would like additional information about the MovieTweetings data, you can find more information at the links provided here:
+throughout this repo I used the Movie Tweetings data, If you would like additional information about the MovieTweetings data, you can find more information at the links provided here:
 
 * [Getting to Know The Data](https://github.com/A2Amir/Recommendation-Systems/blob/main/1.Introduction%20to%20the%20Recommendation%20Data.ipynb)
-
 * [The MovieTweetings white paper. ](http://crowdrec2013.noahlab.com.hk/papers/crowdrec2013_Dooms.pdf)
 * [A Github account set up for MovieTweetings ](http://crowdrec2013.noahlab.com.hk/papers/crowdrec2013_Dooms.pdf)
 * [A slide deck by Simon Doom about MovieTweetings. ](https://www.slideshare.net/simondooms/movie-tweetings-a-movie-rating-dataset-collected-from-twitter)
@@ -88,7 +87,7 @@ Other methods for making recommendations using collaborative filtering are based
 * [Semantic Scholar Paper On Weighted Ratings](https://pdfs.semanticscholar.org/3e9e/bcd9503ef7375c7bb334511804d1e45127e9.pdf)
 
 
-## 2.Content Based Recommendations
+## 3.Content Based Recommendations
 
 In [the previous notebook](https://github.com/A2Amir/Recommendation-Systems/blob/main/4.%20Collaborative%20Filtering%20.ipynb)
 , I implemented collaborative filtering to make recommendations based on finding similar users. However, there were a number of users who did not receive recommendations when using this technique. For this reason,**the Content Based Recommendationsn technique** will be used to find items to recommend to users. 
@@ -99,21 +98,14 @@ It might be the case that content based and collaborative filtering based techni
 * [Content Based Recommendations](https://github.com/A2Amir/Recommendation-Systems/blob/main/5.%20Content%20Based%20Recommendations.ipynb)
 
 
+**There are still more advanced techniques that are related to the methods that you learned about here, and they will most likely fall in one of the three buckets below.**
+
+* [AirBnB uses embeddings in their recommendation, which you can read more about here.](https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e)
+* [As our smart phones become more addicting every day, it is easy to see why location based recommendations will be more and more popular.](https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-17885-1_1580)
+* [Many companies are also exploring deep learning use cases in recommendation systems.](https://ebaytech.berlin/deep-learning-for-recommender-systems-48c786a20e1a)
 
 
-There are still more advanced techniques that are related to the methods that you learned about here, and they will most likely fall in one of the three buckets below. 
-
-AirBnB uses embeddings in their recommendation, which you can read more about here.
-
-https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e
 
 
 
-As our smart phones become more addicting every day, it is easy to see why location based recommendations will be more and more popular. You can read more about these types of recommendations here.
 
-https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-17885-1_1580
-
-
-Many companies are also exploring deep learning use cases in recommendation systems.
-
-https://ebaytech.berlin/deep-learning-for-recommender-systems-48c786a20e1a
