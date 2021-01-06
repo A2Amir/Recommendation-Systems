@@ -88,3 +88,13 @@ Other methods for making recommendations using collaborative filtering are based
 * [Semantic Scholar Paper On Weighted Ratings](https://pdfs.semanticscholar.org/3e9e/bcd9503ef7375c7bb334511804d1e45127e9.pdf)
 
 
+## 2.Content Based Recommendations
+
+In [the previous notebook](https://github.com/A2Amir/Recommendation-Systems/blob/main/4.%20Collaborative%20Filtering%20.ipynb)
+, I implemented collaborative filtering to make recommendations based on finding similar users. However, there were a number of users who did not receive recommendations when using this technique. For this reason, we might use **the Content Based Recommendationsn technique** to find items to recommend to users. 
+In this recommendation technique, we use information that is known about the user or item to make recommendations. This method of making recommendations is particularly useful when we **do not have a lot of user-item connections available in our dataset**. 
+
+It might be the case that content based and collaborative filtering based techniques come up with similar recommendations, but the methods by which data scientists approach these recommendations are very different. In collaborative filtering, you are using the connections of users and items (as you did before). In content based techniques, you are using information about the users and items, but not connections (hence the usefulness when you do not have a lot of internal data already available to use). By checking the link below you can take a look at how I implemented this method with the MovieTweetings data.
+
+* [Content Based Recommendations](https://github.com/A2Amir/Recommendation-Systems/blob/main/5.%20Content%20Based%20Recommendations.ipynb)
+
