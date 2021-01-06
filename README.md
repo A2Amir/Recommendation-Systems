@@ -98,3 +98,22 @@ It might be the case that content based and collaborative filtering based techni
 
 * [Content Based Recommendations](https://github.com/A2Amir/Recommendation-Systems/blob/main/5.%20Content%20Based%20Recommendations.ipynb)
 
+
+
+
+There are still more advanced techniques that are related to the methods that you learned about here, and they will most likely fall in one of the three buckets below. 
+
+AirBnB uses embeddings in their recommendation, which you can read more about here.
+
+https://medium.com/airbnb-engineering/listing-embeddings-for-similar-listing-recommendations-and-real-time-personalization-in-search-601172f7603e
+
+
+
+As our smart phones become more addicting every day, it is easy to see why location based recommendations will be more and more popular. You can read more about these types of recommendations here.
+
+https://link.springer.com/referenceworkentry/10.1007%2F978-3-319-17885-1_1580
+
+
+Many companies are also exploring deep learning use cases in recommendation systems.
+
+https://ebaytech.berlin/deep-learning-for-recommender-systems-48c786a20e1a
