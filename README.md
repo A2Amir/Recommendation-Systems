@@ -1,7 +1,7 @@
-# Recommendation System
- Type of Recommendation Systems
+# Type of Recommendation Systems
  
- In this Repository, I will be working with the MovieTweetings data to apply each of the three methods of recommendations:
+ 
+ In this Repository, I will be working with the Movie Tweetings data to apply each of the three methods of recommendations:
  ***
     1. Knowledge Based Recommendations 
     2. Collaborative Filtering Based Recommendations 
@@ -11,7 +11,7 @@
 
 ## MovieTweetings data
 
-throughout this repo I used the Movie Tweetings data, If you would like additional information about the MovieTweetings data, you can find more information at the links provided here:
+Throughout this repo I used the Movie Tweetings data, If you would like additional information about the MovieTweetings data, you can find more information at the links provided here:
 
 * [Getting to Know The Data](https://github.com/A2Amir/Recommendation-Systems/blob/main/1.Introduction%20to%20the%20Recommendation%20Data.ipynb)
 * [The MovieTweetings white paper. ](http://crowdrec2013.noahlab.com.hk/papers/crowdrec2013_Dooms.pdf)
